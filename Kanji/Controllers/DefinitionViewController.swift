@@ -15,7 +15,7 @@ class DefinitionViewController: UIViewController {
     private let definition:UILabel = {
         let definition = UILabel()
         definition.translatesAutoresizingMaskIntoConstraints = false
-        definition.text = "Test"
+        definition.text = "Test from MacBook"
         definition.textAlignment = .center
         definition.font = definition.font.withSize(26)
         return definition
